@@ -1,35 +1,62 @@
-@tooltip-width: 450;
-@tooltip-height: 600;
 
-.ga-tooltip {
-  max-width: unit(@tooltip-width, px);
-  max-height: unit(@tooltip-height, px);
+td {
+  padding-top: 2px !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+  padding-bottom: 2px !important;
+}
 
-  .ga-active {
-    background-color: #F9DCA8;
+.htmlpopup-container {
+  width: 100% !important;
+  font-size: 11px !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  word-wrap: normal !important;
+  line-height: 1.42857143 !important;
+  text-align: left !important;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important; 
+
+  span {
+    font-weight: bold !important;
   }
-  .popover-content {
-    padding: 0px;
+
+  .htmlpopup-header {
+    background-color: #E9E9E9 !important;
+    padding: 3px !important;
+    font-size: 11px !important;
   }
 
-  td {
-    padding-right: 14px;
-  }
+  .htmlpopup-content {
+    padding: 7px !important;
 
-  .ga-tooltip-separator {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #c7c7c7;
-  }
+    table {
+      font-size: 11px !important;
+      width: 100% !important;
+      border: 0 !important;
 
-  @media (max-width: @screen-tablet) {
-    max-height: 300px;
-  }
+      td {
+        vertical-align: top !important;
+        font-size: 11px !important;
+        padding-top: 2px !important;
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+        padding-bottom: 2px !important;
+      }
 
-  /* !important is used to override (and so deactivate) draggable styles
-  applied */
-  @media (max-width: @screen-phone) {
-    top: 50% !important;
-    max-height: none;
+      .cell-left {
+        width: 150px !important;
+        font-size: 11px !important;        
+      }
+
+      .cell-left-large {
+        width: 320px !important;
+        font-size: 11px !important;
+      }
+    }
   }
 }
