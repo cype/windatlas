@@ -131,25 +131,25 @@ switch (langCat) {
       $('#mycatalog2').append(
         ('<div>' +
             '<input type="radio" name="myradiogroup" onclick="hideLayer2(\'{layerBodId}\', this.checked)"/>{label}' +
-        '</div>').replace('{label}', 'Ausblenden'));
+        '</div>').replace('{label}', 'ausblenden'));
       break;
     case "fr":
       $('#mycatalog2').append(
         ('<div>' +
             '<input type="radio" name="myradiogroup" onclick="hideLayer2(\'{layerBodId}\', this.checked)"/>{label}' +
-        '</div>').replace('{label}', 'Alle ausblenden'));
+        '</div>').replace('{label}', 'balayer'));
       break;
     case "it":
       $('#mycatalog2').append(
         ('<div>' +
             '<input type="radio" name="myradiogroup" onclick="hideLayer2(\'{layerBodId}\', this.checked)"/>{label}' +
-        '</div>').replace('{label}', 'Alle ausblenden'));
+        '</div>').replace('{label}', 'dissolvenza'));
       break;
     case "en":
       $('#mycatalog2').append(
         ('<div>' +
             '<input type="radio" name="myradiogroup" onclick="hideLayer2(\'{layerBodId}\', this.checked)"/>{label}' +
-        '</div>').replace('{label}', 'Alle ausblenden'));
+        '</div>').replace('{label}', 'hide'));
       break;
 }
 
@@ -184,8 +184,8 @@ layers2['ch.bfs.arealstatistik-bodennutzung-1997'].setVisible(true);
 // Define content of catalog
 var catalogConfig = [
   {layerBodId: 'ch.bafu.bundesinventare-bln', labelDE: 'BLN Inventar', labelFR: 'Inventaire IFP', labelIT: 'Inentario IFP', labelEN: 'ILNM inventory'},
-  {layerBodId: 'ch.bafu.ren-feuchtgebiete', labelDE: 'Feuchtgebiete', labelFR: 'Zones humides', labelIT: 'Zona umida', labelEN: ''},
-  {layerBodId: 'ch.bafu.ren-fliessgewaesser_seen', labelDE: 'Fliessgewässer / Seen', labelFR: '', labelIT: '', labelEN: 'Wetland site'},
+  {layerBodId: 'ch.bafu.ren-feuchtgebiete', labelDE: 'Feuchtgebiete', labelFR: 'Zones humides', labelIT: 'Zona umida', labelEN: 'Wetland site'},
+  {layerBodId: 'ch.bafu.ren-fliessgewaesser_seen', labelDE: 'Fliessgewässer / Seen', labelFR: 'Zones aquatiques', labelIT: 'Corsi d acqua / laghi', labelEN: 'Watercourses / lakes'},
   {layerBodId: 'ch.bafu.bundesinventare-jagdbanngebiete', labelDE: 'Jagdbanngebiete', labelFR: 'Districts francs', labelIT: 'Bandite federali di caccia', labelEN: 'Swiss game reserves'},
   {layerBodId: 'ch.bak.bundesinventar-schuetzenswerte-ortsbilder', labelDE: 'Bundesinventar ISOS', labelFR: 'Inventaire fédéral ISOS', labelIT: 'Inventario federale ISOS', labelEN: 'Federal Inventory ISOS'},
   {layerBodId: 'ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter', labelDE: 'Pärke (Perimeter)', labelFR: 'Parcs (Perimetre)', labelIT: 'Parchi (Perimetro)', labelEN: 'Parks (Perimeter)'},

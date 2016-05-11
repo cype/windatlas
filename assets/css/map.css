@@ -9,6 +9,7 @@ header {
 }
 
 img.smallscreen { display: none; }
+
 @media only screen and (max-width: 736px) {
     img { 
         display: none; 
@@ -17,7 +18,6 @@ img.smallscreen { display: none; }
         display: inline; 
     }
 }
-
 
 .typeahead,
 .tt-query,
@@ -29,6 +29,15 @@ img.smallscreen { display: none; }
   border: 1px solid #C1C1C1;
   text-align: left;
 }
+
+@media only screen and (max-width: 400px) {
+.typeahead,
+.tt-query,
+.tt-hint {
+  width: 250px !important;
+}
+}
+
 
 .typeahead {
   background-color: #ffffff;
