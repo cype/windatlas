@@ -173,7 +173,17 @@
     </section>
 
 		<!-- Scripts -->
-    <script src="//api3.geo.admin.ch/loader.js"></script>
+
+<?php
+
+$lang = 'de';
+if (isset($_GET['lang'])) {
+  $lang = $_GET['lang'];
+}
+
+echo '<script src="//api3.geo.admin.ch/loader.js?lang=' . $lang . '"></script>';
+
+?>
 
     <script src="assets/js/jquery-2.1.4.min.js"></script>
     <script src="assets/js/jquery.xdomainrequest.1.0.2.min.js"></script>

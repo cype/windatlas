@@ -53,11 +53,11 @@ map.addLayer(lyr1);
 
 // Define content of catalog
 var catalogConfig2 = [
-  {layerBodId: 'ch.bfs.arealstatistik-bodennutzung-1997', labelDE: '150 m Höhe über Grund', labelFR: '150 m du sol', labelIT: '150 m sopra livello del terreno', labelEN: '150 metres above the ground', hoehenstufe: '150'},
-  {layerBodId: 'ch.bfs.arealstatistik-bodennutzung-1997', labelDE: '125 m Höhe über Grund', labelFR: '125 m du sol', labelIT: '125 m sopra livello del terreno', labelEN: '125 metres above the ground', hoehenstufe: '125'},
-  {layerBodId: 'ch.bfs.arealstatistik-bodennutzung-1997', labelDE: '100 m Höhe über Grund', labelFR: '100 m du sol', labelIT: '100 m sopra livello del terreno', labelEN: '100 metres above the ground', hoehenstufe: '100'},
-  {layerBodId: 'ch.bfs.arealstatistik-bodennutzung-1997', labelDE: '75 m Höhe über Grund', labelFR: '75 m du sol', labelIT: '75 m sopra livello del terreno', labelEN: '75 metres above the ground', hoehenstufe: '75'},
-  {layerBodId: 'ch.bfs.arealstatistik-bodennutzung-1997', labelDE: '50 m Höhe über Grund', labelFR: '50 m du sol', labelIT: '50 m sopra livello del terreno', labelEN: '50 metres above the ground', hoehenstufe: '50'}
+  {layerBodId: 'ch.bfe.windenergie-geschwindigkeit_h150', labelDE: '150 m Höhe über Grund', labelFR: '150 m du sol', labelIT: '150 m sopra livello del terreno', labelEN: '150 metres above the ground', hoehenstufe: '150'},
+  {layerBodId: 'ch.bfe.windenergie-geschwindigkeit_h125', labelDE: '125 m Höhe über Grund', labelFR: '125 m du sol', labelIT: '125 m sopra livello del terreno', labelEN: '125 metres above the ground', hoehenstufe: '125'},
+  {layerBodId: 'ch.bfe.windenergie-geschwindigkeit_h100', labelDE: '100 m Höhe über Grund', labelFR: '100 m du sol', labelIT: '100 m sopra livello del terreno', labelEN: '100 metres above the ground', hoehenstufe: '100'},
+  {layerBodId: 'ch.bfe.windenergie-geschwindigkeit_h75', labelDE: '75 m Höhe über Grund', labelFR: '75 m du sol', labelIT: '75 m sopra livello del terreno', labelEN: '75 metres above the ground', hoehenstufe: '75'},
+  {layerBodId: 'ch.bfe.windenergie-geschwindigkeit_h50', labelDE: '50 m Höhe über Grund', labelFR: '50 m du sol', labelIT: '50 m sopra livello del terreno', labelEN: '50 metres above the ground', hoehenstufe: '50'}
 ];
 
 // Create the layers
@@ -177,7 +177,7 @@ var hideLayer2 = function(layerBodId, visible) {
 };
 
 //Start-Layer einblenden, 125 m
-layers2['ch.bfs.arealstatistik-bodennutzung-1997'].setVisible(true);
+layers2['ch.bfe.windenergie-geschwindigkeit_h125'].setVisible(true);
 
 
 
