@@ -106,7 +106,7 @@
     <!-- One: Graph -->
       <section id="one" class="main style1 special" style="padding-bottom: 0px;">
         <div class="container">
-          <header class="major">
+          <header class="major" id="titelHeader">
             <h2><span class="trn">storymapTitel</span></h2>
           </header>
           <p style="padding-bottom: 0px;"><span class="trn">storymapText</span>&nbsp;
@@ -135,12 +135,12 @@
 
           <div class="row 150%">
           
-            <div class="6u 12u$(medium)">
+            <div class="6u 12u$(small)">
               <div><strong><span class="trn">hoehenstufen</span></strong></div>
               <div id="mycatalog2"></div>
             </div>
 
-            <div class="6u 12u$(medium)">
+            <div class="6u 12u$(small)">
               <div><strong><span class="trn">zusatzinfo</span></strong></strong></div>
               <div id="mycatalog"></div>
             </div>
@@ -166,7 +166,7 @@
       </ul>
       <ul class="copyright">
         <li><span class="trn">copyrightMain</span></li>
-        <li>v 1.0</li>
+        <li>v 1.0.1</li>
         <li><span class="trn">impressumAnalyse</span></li>
         <li><span class="trn">contact</span></li>
       </ul>

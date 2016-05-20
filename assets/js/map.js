@@ -189,9 +189,9 @@ var catalogConfig = [
   {layerBodId: 'ch.bafu.bundesinventare-jagdbanngebiete', labelDE: 'Jagdbanngebiete', labelFR: 'Districts francs', labelIT: 'Bandite federali di caccia', labelEN: 'Swiss game reserves'},
   {layerBodId: 'ch.bak.bundesinventar-schuetzenswerte-ortsbilder', labelDE: 'Bundesinventar ISOS', labelFR: 'Inventaire fédéral ISOS', labelIT: 'Inventario federale ISOS', labelEN: 'Federal Inventory ISOS'},
   {layerBodId: 'ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter', labelDE: 'Pärke (Perimeter)', labelFR: 'Parcs (Perimetre)', labelIT: 'Parchi (Perimetro)', labelEN: 'Parks (Perimeter)'},
-  {layerBodId: 'ch.bafu.bundesinventare-trockenwiesen_trockenweiden', labelDE: 'Trockenwiesen und -weiden (TWW)', labelFR: 'Prairies et pâturages secs (PPS)', labelIT: 'Prati e pascoli secchi (PPS)', labelEN: 'Dry grasslands (DGS)'},
+  {layerBodId: 'ch.bafu.bundesinventare-trockenwiesen_trockenweiden', labelDE: 'Trockenwiesen und -weiden', labelFR: 'Prairies et pâturages secs', labelIT: 'Prati e pascoli secchi', labelEN: 'Dry grasslands'},
   {layerBodId: 'ch.bfe.abgeltung-wasserkraftnutzung', labelDE: 'Verzicht Wasserkraftnutzung', labelFR: 'Renonciation force hydraulique', labelIT: 'Abbandono dell&apos;drolettricitá', labelEN: 'Abandonment of hydropower'},
-  {layerBodId: 'ch.bafu.ren-wald', labelDE: 'Wald', labelFR: 'Forêts', labelIT: 'Bosco', labelEN: 'Forest'},
+  {layerBodId: 'ch.swisstopo.vec200-landcover-wald', labelDE: 'Wald', labelFR: 'Forêts', labelIT: 'Bosco', labelEN: 'Forest'},
   {layerBodId: 'ch.bafu.bundesinventare-vogelreservate', labelDE: 'Wasser- und Zugvogelreservate', labelFR: 'Réserves d&apos;oiseaux d&apos;eau', labelIT: 'Riserve di uccelli acquatici', labelEN: 'Water & migrant bird reserves'}
 ];
 

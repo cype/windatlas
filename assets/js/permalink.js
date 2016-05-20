@@ -28,9 +28,11 @@ var addPermalink = function() {
   loc = window.location;
   var res = parseKeyValue(loc.search.substring(1));
   var lang =  (res.lang || '').split(',');
+  var header =  (res.header || '').split(',');
 
   var url = {
-    lang: (lang[0].length) ? lang[0] : undefined
+    lang: (lang[0].length) ? lang[0] : undefined,
+    header: (header[0].length) ? header[0] : undefined
   }; 
   return url;
 };
